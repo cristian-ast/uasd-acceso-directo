@@ -3,7 +3,7 @@ import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
 const Link = ({text, link}) => {
     return (
-        <a href={link} target="_blank" className="link">
+        <a href={link} target="_blank" rel="noreferrer" className="link">
             <ArrowForwardIcon/>
             <center><p><b>{text}</b></p></center>
         </a>
